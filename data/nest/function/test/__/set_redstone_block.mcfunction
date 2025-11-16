@@ -1,0 +1,1 @@
+return run setblock ~ ~ ~ redstone_block replace

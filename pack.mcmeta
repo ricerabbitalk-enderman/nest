@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 16,
+    "supported_formats": {
+      "min_inclusive": 16,
+      "max_inclusive": 81
+    },
+    "min_format": [16,0],
+    "max_format": [88,0],
+    "description": "nest, Nest is Easy and Simple Test unit."
+  }
+}

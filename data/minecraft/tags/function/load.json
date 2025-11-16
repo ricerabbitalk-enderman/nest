@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "nest:__/system/__load",
+    "nest:__/system/__define",
+    "nest:__/case/__load",
+    "nest:__/suite/__load"
+  ]
+}

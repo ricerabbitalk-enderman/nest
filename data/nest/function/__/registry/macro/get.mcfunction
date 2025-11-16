@@ -1,0 +1,1 @@
+$return run data modify storage nest:__/registry/macro/get >> set from storage nest:__/registry/macro data.$(name)

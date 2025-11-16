@@ -1,0 +1,6 @@
+{
+  "type": "minecraft:block_based",
+  "environment": "nest:unit",
+  "structure": "nest:unit",
+  "max_ticks": 2000
+}
