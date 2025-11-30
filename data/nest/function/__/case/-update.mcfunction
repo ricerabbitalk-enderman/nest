@@ -6,7 +6,7 @@ scoreboard players set #nest:__/case/-update|state -- 0
 data modify storage nest:__/alias/macro/call << merge value {}
 data modify storage nest:__/alias/macro/call <<.name set from entity @s data.nest.case.__case
 execute store success score #nest:__/case/-update|success -- store result score #nest:__/case/-update|state -- \
-  run function nest:__/alias/macro/call with storage nest:__/alias/macro/call <<
+  at @s run function nest:__/alias/macro/call with storage nest:__/alias/macro/call <<
 
 ## Fatal error.
 execute if score #nest:__/case/-update|success -- matches 0 if function nest:__/case/__/-delete run return run function nest:__/case/__/fatal_error
